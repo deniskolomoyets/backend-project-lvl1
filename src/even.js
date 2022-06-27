@@ -1,13 +1,14 @@
+import gameEngine from './index.js';
+
 const getRandomInt = (from = 1, to = 100) => Math.floor(Math.random() * (to - from) + from);
 
 const isEven = (number) => number % 2 === 0;
+const task = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const getEven = () => {
+const getGameData = () => {
   const randomNum = getRandomInt();
-  const question = `${randomNum}`;
-
   const correctAnswer = isEven(randomNum) ? 'yes' : 'no';
-  return [question, correctAnswer];
+  return [randomNum, correctAnswer];
 };
 
-export default getEven;
+export default () => gameEngine(task, getGameData);
