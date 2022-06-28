@@ -1,6 +1,5 @@
 import gameEngine from './index.js';
-
-const getRandomInt = (from = 1, to = 100) => Math.floor(Math.random() * (to - from) + from);
+import getRandomInt from './utils.js';
 
 const isEven = (number) => number % 2 === 0;
 const task = 'Answer "yes" if the number is even, otherwise answer "no".';
