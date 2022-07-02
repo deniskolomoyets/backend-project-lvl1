@@ -4,10 +4,18 @@
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
+*For installation:**
+
+- Clone this repository
+
+- Run the command: _make install_
+- Run the command: _npm link_
+
 ## Setup
 
 ```bash
 $ make install
+$ npm link
 ```
 
 ## Run games
