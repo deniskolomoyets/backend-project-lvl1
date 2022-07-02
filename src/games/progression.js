@@ -19,7 +19,7 @@ const getGameData = () => {
   const hiddenNumber = getRandomInt(1, 9);
   const correctAnswer = progression[hiddenNumber];
   progression[hiddenNumber] = '..';
-  const randomNum = progression.join('  ');
+  const randomNum = progression.join(' ');
   return [randomNum, String(correctAnswer)];
 };
 export default () => gameEngine(task, getGameData);
