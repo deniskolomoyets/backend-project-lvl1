@@ -21,23 +21,23 @@ $ npm link
 ```
 
 ## Run games:
- - Determination of an even number.
+ - Determination of an even number:
 ```bash
 $ brain-even 
 ```
- - Calculator. Arithmetic expressions to be evaluated.
+ - Calculator. Arithmetic expressions to be evaluated:
 ```bash
 $ brain-calc
 ```
- - Determination of the greatest common divisor.
+ - Determination of the greatest common divisor:
 ```bash
 $ brain-gcd
 ```
- - Determination of a prime number.
+ - Determination of a prime number:
 ```bash
 $ brain-prime
 ```
- - Progression. Finds missing numbers in a sequence of numbers.
+ - Progression. Finds missing numbers in a sequence of numbers:
 ```bash
 $ brain-progression
 ```
