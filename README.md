@@ -4,39 +4,44 @@
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
-*For installation:**
 
+## Installation:
 - Clone this repository
-
-- Run the command: _make install_
-- Run the command: _npm link_
-
-## Setup
+- Run the command:
 
 ```bash
 $ make install
+
 $ npm link
 ```
 
-## Run games
+## Run games:
 
 ```bash
-$ brain-calc
 $ brain-even
+
+$ brain-calc
+
 $ brain-gcd
+
 $ brain-prime
+
 $ brain-progression
 ```
 
-# Examples
+# Examples:
 
 ## brain-even
 [![asciicast](https://asciinema.org/a/sKGqQNMTaINuc64sjd30s9hqP.svg)](https://asciinema.org/a/sKGqQNMTaINuc64sjd30s9hqP)
+
 ## brain-calc
 [![asciicast](https://asciinema.org/a/8wjdBRjKhHuMyw8tFwxiT92TD.svg)](https://asciinema.org/a/8wjdBRjKhHuMyw8tFwxiT92TD)
+
 ## brain-gcd
 [![asciicast](https://asciinema.org/a/uBxSpahNMACdwd0BQDmiBdAEU.svg)](https://asciinema.org/a/uBxSpahNMACdwd0BQDmiBdAEU)
+
 ## brain-prime
 [![asciicast](https://asciinema.org/a/Zliwo1rVHRCuQwQvBBgNF06tt.svg)](https://asciinema.org/a/Zliwo1rVHRCuQwQvBBgNF06tt)
+
 ## brain-progression
 [![asciicast](https://asciinema.org/a/ezhOowxfvnlxnrpi16LHuHkRA.svg)](https://asciinema.org/a/ezhOowxfvnlxnrpi16LHuHkRA)
