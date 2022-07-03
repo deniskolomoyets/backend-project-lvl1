@@ -2,15 +2,20 @@
 [![Actions Status](https://github.com/deniskolomoyets/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/deniskolomoyets/backend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/94ca6038a9ec6a70fc3c/maintainability)](https://codeclimate.com/github/deniskolomoyets/backend-project-lvl1/maintainability)
 
+
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
 
 ## Installation:
+_This game is for the Node.js v16.8.0 and later._
+
 - Clone this repository
 - Run the command:
 
 ```bash
 $ make install
+
+$ make publish
 
 $ npm link
 ```
@@ -18,7 +23,7 @@ $ npm link
 ## Run games:
 
 ```bash
-$ brain-even
+$ brain-even - Determination of an even number.
 
 $ brain-calc
 
