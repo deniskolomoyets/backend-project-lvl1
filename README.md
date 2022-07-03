@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/deniskolomoyets/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/deniskolomoyets/backend-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/94ca6038a9ec6a70fc3c/maintainability)](https://codeclimate.com/github/deniskolomoyets/backend-project-lvl1/maintainability)
-
+[![hexlet-check](https://github.com/deniskolomoyets/backend-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/deniskolomoyets/backend-project-lvl1/actions/workflows/hexlet-check.yml)
 
 **Brain Games** is a set of five console games, built on the principle of popular mobile brain training applications. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered to be completed. Wrong answers end the game and offer to play it again.
 
