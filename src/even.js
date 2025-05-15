@@ -27,5 +27,5 @@ export default function runEvenGame() {
     }
   }
 
-  console.log("Congratulations!");
+  console.log("Congratulations, ${name}!");
 }
