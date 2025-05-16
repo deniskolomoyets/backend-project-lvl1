@@ -1,26 +1,24 @@
-import js from '@eslint/js'
-import stylistic from '@stylistic/eslint-plugin'
-import { defineConfig } from 'eslint/config'
-
-export default defineConfig([
+export default [
+  // ...
+  stylistic.configs.recommended,
+  pluginJs.configs.recommended,
+  ...tseslint.configs.recommendedTypeChecked,
+  ...tseslint.configs.stylisticTypeChecked,
+  // prettier,
   {
-    files: ['**/*.js'],
     languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-      globals: {
-        console: 'readonly', // 👈 или можно только это
+      globals: globals.node,
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
-    plugins: {
-      js,
-      stylistic,
-    },
     rules: {
-      ...js.configs.recommended.rules,
-      'stylistic/quotes': ['error', 'single'],
-      'stylistic/semi': ['error', 'never'],
-      'no-console': 'off',
+      '@typescript-eslint/no-unused-vars': 'off',
+      'arrow-parens': ['error', 'as-needed'],
+      'no-extra-parens': 'off',
+      '@typescript-eslint/no-extra-parens': 'off',
+      'brace-style': ['error', 'stroustrup'],
     },
   },
-])
+]
