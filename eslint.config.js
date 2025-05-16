@@ -10,7 +10,7 @@ export default [
   pluginJs.configs.recommended,
   ...tseslint.configs.recommendedTypeChecked,
   ...tseslint.configs.stylisticTypeChecked,
-  // prettier,
+  prettier,
   {
     languageOptions: {
       globals: globals.node,

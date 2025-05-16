@@ -17,7 +17,7 @@ export default function runGame(gameDescription, getRoundData) {
     if (userAnswer === String(correctAnswer)) {
       console.log('Correct!')
       correctCount += 1
-    } 
+    }
     else {
       console.log(
         `'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`,
